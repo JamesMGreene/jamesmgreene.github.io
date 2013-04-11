@@ -163,8 +163,8 @@ header ul a {
   display: block;
   text-align: center;
   font-weight: 400;
-  padding-top: 6px;
-  height: 40px;
+  padding-top: 4px;
+  height: 34px;
   text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 }
 header ul a strong {
