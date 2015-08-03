@@ -354,3 +354,15 @@ footer p + p {
     content: 'at http://github.com/';
   }
 }
+
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+#mcpframe {
+  width: 100%;
+  height: 500px;
+  border: 0;
+}
