@@ -34,10 +34,10 @@
  - I may have an emoji addiction :blush:
 
 
-[me/gh]: http://github.com/JamesMGreene "GitHub"
-[me/t]: http://twitter.com/_JamesMGreene "Twitter"
+[me/gh]: https://github.com/JamesMGreene "GitHub"
+[me/t]: https://twitter.com/_JamesMGreene "Twitter"
 [me/email]: mailto:james.m.greene@gmail.com "Email"
-[me/site]: http://greene.io/ "Website"
+[me/site]: https://jamesmgreene.github.io/ "Website"
 [cover-letter/open-source]: OPEN-SOURCE.md
 [cover-letter/learning]: LEARNING.md
 [cover-letter/best-project]: BEST-PROJECT.md
