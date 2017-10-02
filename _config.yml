@@ -1,0 +1,8 @@
+title: jamesmgreene.github.io
+description: Personal site of James M. Greene
+google_analytics: UA-21133140-10
+show_downloads: true
+theme: jekyll-theme-modernist
+
+gems:
+  - jekyll-mentions
