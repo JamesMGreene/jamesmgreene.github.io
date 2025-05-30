@@ -7,7 +7,10 @@ const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-int
 const roboto_mono = Roboto_Mono({ subsets: ['latin'], display: 'swap', variable: '--font-roboto-mono' })
 
 export const metadata: Metadata = {
-  title: { template: '%s | James M. Greene', default: 'James M. Greene' },
+  title: {
+    template: `%s | ${process.env.SITE_NAME}`,
+    default: process.env.SITE_NAME || 'My Site!'
+  },
   description: 'The personal site of James M. Greene, a seasoned software engineer.',
 }
 
