@@ -1,0 +1,37 @@
+.footer {
+  width: 640px;
+  margin: 0 auto;
+  padding: 20px 0 0;
+  color: #ccc;
+  overflow: hidden;
+}
+
+.footer a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer p {
+  float: left;
+}
+
+.footer p + p {
+  float: right;
+}
+
+@media print, screen and (max-width: 740px) {
+  .footer {
+    border-radius: 0;
+    padding: 20px;
+    width: auto;
+  }
+
+  .footer p {
+    float: none;
+    margin: 0;
+  }
+
+  .footer p + p {
+    float: none;
+  }
+}

@@ -1,0 +1,106 @@
+.header {
+  border-radius: 8px 8px 0 0;
+  background: #c6eafa;
+  background: linear-gradient(#ddfbfc, #c6eafa);
+  position: relative;
+  padding: 15px 20px;
+  border-bottom: 1px solid #b2d2e1;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #069;
+  text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
+}
+
+.header h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header p {
+  margin: 0;
+  color: #61778b;
+  width: 450px;
+  font-size: 13px;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  top: 20px;
+  height: 38px;
+  padding: 1px 0;
+  background: #5198df;
+  background: linear-gradient(#77b9fb, #3782cd);
+  border-radius: 5px;
+  box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0,
+    inset rgba(0, 0, 0, 0.2) 0 -1px 0;
+  width: auto;
+}
+
+.header ul::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -5px;
+  top: -4px;
+  right: -5px;
+  bottom: -6px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0,
+    inset rgba(255, 255, 255, 0.7) 0 -1px 0;
+}
+
+.header ul li {
+  width: 50px;
+  float: left;
+  border-right: 1px solid #3a7cbe;
+  height: 38px;
+}
+
+.header ul li:last-child {
+  border-right: none;
+}
+
+.header ul li + li {
+  width: 50px;
+  border-left: 1px solid #8bbef3;
+}
+
+.header ul a {
+  line-height: 1;
+  font-size: 11px;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 4px;
+  height: 34px;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+}
+
+.header ul a strong {
+  font-size: 14px;
+  display: block;
+  color: #fff;
+}
+
+@media print, screen and (max-width: 580px) {
+  .header ul {
+    display: none;
+  }
+
+  .header p {
+    width: 100%;
+  }
+}

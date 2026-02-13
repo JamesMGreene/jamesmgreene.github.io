@@ -1,93 +1,24 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>James M. Greene</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css" />
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css" />
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <script>
+      // Single Page App GitHub Pages redirect handler
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      }(window.location))
+    </script>
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="https://jamesmgreene.github.io/">James M. Greene</a></h1>
-        <p>
-        JavaScript engineer/lover. Official <a href="http://jquery.org/team/">jQuery team member</a>.<br />
-        Open source collaborator for <a href="http://phantomjs.org/">PhantomJS</a>,
-        <a href="http://qunitjs.com/">QUnit</a>, <a href="http://zeroclipboard.org/">ZeroClipboard</a>,
-        and <a href="https://github.com/derek-watson/jsUri">jsUri</a>.</p>
-        <ul>
-          <li><a href="https://github.com/JamesMGreene"><img title="GitHub" alt=":octocat:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/octocat.png" height="30" width="30" align="absmiddle"></a></li>
-          <li><a href="https://twitter.com/_JamesMGreene" title="Twitter"><img title="Twitter" alt=":bird:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/bird.png" height="30" width="30" align="absmiddle"></a></li>
-          <li><a href="mailto:james.m.greene@gmail.com" title="Email"><img title="Email" alt=":e-mail:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/e-mail.png" height="30" width="30" align="absmiddle"></a></li>
-          <li><a href="https://jamesmgreene.github.io/" title="Website"><img title="Website" alt=":earth_americas:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/earth_americas.png" height="30" width="30" align="absmiddle"></a></li>
-        </ul>
-      </header>
-
-
-      <section>
-
-<h3 id="technical-prowess">Technical Prowess</h3>
-<ul>
-  <li>I am a JavaScript language expert, for both the frontend (browsers) and back (Node.js, PhantomJS, etc.).
-Check out my <a href="open-source.html">open source work</a> and my <a href="best-project.html">best project narrative</a>
-for more details.</li>
-  <li>I am extremely proficient at learning new programming languages and frameworks.</li>
-  <li>I am a practitioner of unit testing, though I know from experience that it doesn’t always pan out as well we hope.</li>
-  <li>I am a regular GitHub.com user but I accomplish most of my Git interactions from the terminal.</li>
-  <li>I am extraordinarily detail-oriented.</li>
-</ul>
-
-<h3 id="personality">Personality</h3>
-<ul>
-  <li>I am an easy-going person and enjoy working with others, though I have also been an “individual contributor” for
-much of my professional career.</li>
-  <li>I have experience leading small teams (1-10 devs) on focused features/refactors/projects.</li>
-  <li>I refuse to stop <a href="learning.html">learning</a>, and I strive to find a healthy balance between the breadth and depth
-of the knowledge that I absorb.</li>
-  <li>I am very passionate about creating <em>and shipping</em> high quality software; a desire which is complemented well by my
-detail-oriented nature.</li>
-  <li>I am <em>obsessed</em> with the three Cs of open source: <a href="open-source.html">creating, contributing, and consuming</a>.</li>
-  <li>I have an unabashed love for JavaScript that most engineers consider unhealthy.</li>
-</ul>
-
-<hr>
-
-<h3 id="more-about-me"><em>More about me!</em></h3>
-<ul>
-  <li>I <img title="Gift Heart" alt=":gift_heart:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/gift_heart.png" height="20" width="20" align="absmiddle"> Open Sourcing: <a href="open-source.html">open-source.html</a>
-</li>
-  <li>I <img title="Heart" alt=":heart:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/heart.png" height="20" width="20" align="absmiddle"> Learning: <a href="learning.html">learning.html</a>
-</li>
-  <li>I am very proud of a particular project: <a href="best-project.html">best-project.html</a>
-</li>
-  <li>I am considered a JavaScript expert by my peers and current employer</li>
-  <li>I may have an emoji addiction <img title="Blush" alt=":blush:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/blush.png" height="20" width="20" align="absmiddle"></li>
-</ul>
-      </section>
-    </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/JamesMGreene">JamesMGreene</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-21133140-10");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
