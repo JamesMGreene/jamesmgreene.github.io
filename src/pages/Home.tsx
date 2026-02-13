@@ -66,24 +66,12 @@ export default function Home() {
       <ul>
         <li>
           I{" "}
-          <img
-            title="Gift Heart"
-            alt=":gift_heart:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/gift_heart.png"
-            height="20"
-            width="20"
-          />{" "}
+💝{" "}
           Open Sourcing: <Link to="/open-source">open-source</Link>
         </li>
         <li>
           I{" "}
-          <img
-            title="Heart"
-            alt=":heart:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/heart.png"
-            height="20"
-            width="20"
-          />{" "}
+❤️{" "}
           Learning: <Link to="/learning">learning</Link>
         </li>
         <li>
@@ -95,13 +83,7 @@ export default function Home() {
         </li>
         <li>
           I may have an emoji addiction{" "}
-          <img
-            title="Blush"
-            alt=":blush:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/blush.png"
-            height="20"
-            width="20"
-          />
+😊
         </li>
       </ul>
     </>

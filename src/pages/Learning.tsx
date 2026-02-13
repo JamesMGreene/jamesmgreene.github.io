@@ -6,28 +6,14 @@ export default function Learning() {
       <h3>
         <a id="i-heart-learning" href="#i-heart-learning">
           I{" "}
-          <img
-            className="emoji"
-            title=":heart:"
-            alt=":heart:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/heart.png"
-            height="20"
-            width="20"
-          />{" "}
+❤️{" "}
           Learning
         </a>
       </h3>
       <ul>
         <li>
           <strong>Open Source Contributor</strong>{" "}
-          <img
-            className="emoji"
-            title=":gift:"
-            alt=":gift:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/gift.png"
-            height="20"
-            width="20"
-          />
+🎁
           <ul>
             <li>
               I always learn <em>a lot</em> while contributing to open source
@@ -38,14 +24,7 @@ export default function Learning() {
         </li>
         <li>
           <strong>Speaker</strong>{" "}
-          <img
-            className="emoji"
-            title=":speech_balloon:"
-            alt=":speech_balloon:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/speech_balloon.png"
-            height="20"
-            width="20"
-          />
+💬
           <ul>
             <li>
               <a href="http://www.twincitiescodecamp.com/tccc/spring2012/sessions.aspx#s5">
@@ -68,14 +47,7 @@ export default function Learning() {
         </li>
         <li>
           <strong>Conference Attendee</strong>{" "}
-          <img
-            className="emoji"
-            title=":ticket:"
-            alt=":ticket:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/ticket.png"
-            height="20"
-            width="20"
-          />
+🎫
           <ul>
             <li>
               <a href="http://lanyrd.com/2012/frontendmasters/">
@@ -94,14 +66,7 @@ export default function Learning() {
         </li>
         <li>
           <strong>Web Community Activist</strong>{" "}
-          <img
-            className="emoji"
-            title=":fist:"
-            alt=":fist:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/fist.png"
-            height="20"
-            width="20"
-          />
+✊
           <ul>
             <li>
               Co-organizer of the{" "}
@@ -141,14 +106,7 @@ export default function Learning() {
         </li>
         <li>
           <strong>Teacher</strong>{" "}
-          <img
-            className="emoji"
-            title=":book:"
-            alt=":book:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/book.png"
-            height="20"
-            width="20"
-          />
+📖
           <ul>
             <li>
               Mentored many coworkers on the .NET Framework, ASP.NET MVC, the
@@ -175,14 +133,7 @@ export default function Learning() {
         </li>
         <li>
           <strong>Student</strong>{" "}
-          <img
-            className="emoji"
-            title=":mortar_board:"
-            alt=":mortar_board:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/mortar_board.png"
-            height="20"
-            width="20"
-          />
+🎓
           <ul>
             <li>M.S. Software Engineering</li>
             <li>
@@ -208,14 +159,7 @@ export default function Learning() {
         </li>
         <li>
           <strong>Husband &amp; Father</strong>{" "}
-          <img
-            className="emoji"
-            title=":family:"
-            alt=":family:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/family.png"
-            height="20"
-            width="20"
-          />
+👪
           <ul>
             <li>
               <em>Oh, so much to learn...!</em>

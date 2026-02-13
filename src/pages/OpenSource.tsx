@@ -4,20 +4,13 @@ export default function OpenSource() {
       <h3>
         <a id="i-gift_heart-open-sourcing" href="#i-gift_heart-open-sourcing">
           I{" "}
-          <img
-            className="emoji"
-            title=":gift_heart:"
-            alt=":gift_heart:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/gift_heart.png"
-            height="20"
-            width="20"
-          />{" "}
+💝{" "}
           Open Sourcing
         </a>
       </h3>
       <ul>
         <li>
-          <a href="https://phantomjs.org/">PhantomJS</a> &mdash;{" "}
+          <a href="https://github.com/ariya/phantomjs">PhantomJS</a> &mdash;{" "}
           <em>
             &quot;Full web stack, no browser required.&quot; PhantomJS is a
             headless WebKit with JavaScript API.
@@ -59,7 +52,7 @@ export default function OpenSource() {
           </ul>
         </li>
         <li>
-          <a href="http://zeroclipboard.org/">ZeroClipboard</a> &mdash;{" "}
+          <a href="https://github.com/zeroclipboard/zeroclipboard">ZeroClipboard</a> &mdash;{" "}
           <em>
             ZeroClipboard is a JavaScript library that enables clipboard
             injection using an invisible Adobe Flash movie.
@@ -73,7 +66,7 @@ export default function OpenSource() {
           </ul>
         </li>
         <li>
-          <a href="http://qunitjs.com/">QUnit</a> &mdash;{" "}
+          <a href="https://github.com/jquery/qunit">QUnit</a> &mdash;{" "}
           <em>
             QUnit is a powerful, easy-to-use JavaScript unit testing framework.
           </em>
@@ -138,19 +131,12 @@ export default function OpenSource() {
           </ul>
         </li>
         <li>
-          <a href="http://jquery.com/">jQuery</a> &mdash;{" "}
+          <a href="https://github.com/jquery/jquery">jQuery</a> &mdash;{" "}
           <em>
             jQuery is a fast, small, and feature-rich JavaScript library.
           </em>{" "}
           (Heard of it?{" "}
-          <img
-            className="emoji"
-            title=":wink:"
-            alt=":wink:"
-            src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/wink.png"
-            height="20"
-            width="20"
-          />
+😉
           )
           <ul>
             <li>
