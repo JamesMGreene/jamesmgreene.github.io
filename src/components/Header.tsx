@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <h1>
-        <Link to="/">jamesmgreene <span className={styles.dim}>~</span></Link>
+        <Link to="/">JamesMGreene <span className={styles.dim}>~</span></Link>
       </h1>
       <nav className={styles.nav}>
         <Link to="/">Home</Link>
