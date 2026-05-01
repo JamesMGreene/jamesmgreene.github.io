@@ -129,16 +129,16 @@ export default function Learning() {
           <strong>Conference Attendee</strong>{" "}
 🎫
           <ul>
-            <li>JSConf US</li>
-            <li>jQCon (jQuery Conference) US</li>
             <li>Frontend Masters</li>
-            <li>MidwestJS</li>
-            <li>Node.js Interactive</li>
-            <li>React Summit</li>
-            <li>Node Congress</li>
+            <li>jQCon (jQuery Conference) US</li>
+            <li>JSConf US</li>
             <li>JSNation</li>
             <li>LeadDev</li>
+            <li>MidwestJS</li>
             <li>Minnebar</li>
+            <li>Node Congress</li>
+            <li>Node.js Interactive</li>
+            <li>React Summit</li>
           </ul>
         </li>
         <li>
