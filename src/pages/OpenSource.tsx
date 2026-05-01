@@ -8,6 +8,53 @@ export default function OpenSource() {
           Open Sourcing
         </a>
       </h3>
+
+      <h4>
+        <a id="recent-work" href="#recent-work">
+          Recent Public Work
+        </a>
+      </h4>
+      <ul>
+        <li>
+          <a href="https://github.com/actions/deploy-pages">actions/deploy-pages</a>{" "}
+          &mdash;{" "}
+          <em>
+            The official GitHub Action to deploy to GitHub Pages. Used by
+            millions of repositories for continuous deployment with any static
+            site generator.
+          </em>
+        </li>
+        <li>
+          <a href="https://github.com/actions/configure-pages">actions/configure-pages</a>{" "}
+          &mdash;{" "}
+          <em>
+            The official GitHub Action to configure GitHub Pages for deployment,
+            enabling proper base path and URL settings.
+          </em>
+        </li>
+        <li>
+          <a href="https://github.com/actions/upload-pages-artifact">actions/upload-pages-artifact</a>{" "}
+          &mdash;{" "}
+          <em>
+            The official GitHub Action to package and upload artifacts for
+            GitHub Pages deployments.
+          </em>
+        </li>
+        <li>
+          <a href="https://github.com/github/docs">github/docs</a>{" "}
+          &mdash;{" "}
+          <em>
+            The open source documentation for GitHub. Contributed to platform
+            engineering, deployment strategies, and open source synchronization.
+          </em>
+        </li>
+      </ul>
+
+      <h4>
+        <a id="earlier-contributions" href="#earlier-contributions">
+          Earlier Contributions
+        </a>
+      </h4>
       <ul>
         <li>
           <a href="https://github.com/ariya/phantomjs">PhantomJS</a> &mdash;{" "}
