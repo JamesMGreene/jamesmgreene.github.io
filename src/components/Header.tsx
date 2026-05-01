@@ -8,10 +8,10 @@ export default function Header() {
         <NavLink to="/">JamesMGreene <span className={styles.dim}>~</span></NavLink>
       </h1>
       <nav className={styles.nav}>
-        <NavLink to="/" end className={({ isActive }) => isActive ? styles.active : undefined}>Home</NavLink>
-        <NavLink to="/open-source" className={({ isActive }) => isActive ? styles.active : undefined}>Open Source</NavLink>
-        <NavLink to="/best-project" className={({ isActive }) => isActive ? styles.active : undefined}>Best Project</NavLink>
-        <NavLink to="/learning" className={({ isActive }) => isActive ? styles.active : undefined}>Learning</NavLink>
+        <NavLink to="/" end className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ""}`}>Home</NavLink>
+        <NavLink to="/open-source" className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ""}`}>Open Source</NavLink>
+        <NavLink to="/best-project" className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ""}`}>Best Project</NavLink>
+        <NavLink to="/learning" className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ""}`}>Learning</NavLink>
       </nav>
       <ul>
         <li>

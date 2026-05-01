@@ -80,9 +80,21 @@
   color: #f0f6fc;
 }
 
-.active {
+.navLink {
+  color: #8b949e;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navLink:hover {
   color: #f0f6fc;
-  text-decoration: underline;
+}
+
+.active {
+  color: #f0f6fc !important;
+  text-decoration: underline !important;
   text-underline-offset: 4px;
   text-decoration-color: #58a6ff;
 }
