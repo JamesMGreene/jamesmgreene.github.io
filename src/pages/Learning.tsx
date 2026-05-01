@@ -69,7 +69,8 @@ export default function Learning() {
             <li>
               Co-founder and co-organizer of the{" "}
               <a href="http://www.meetup.com/JavaScriptMN/">JavaScriptMN</a>{" "}
-              user group (~1000 members, average of 75+ attendees).
+              user group (~1000 members, average of 75+ attendees).{" "}
+              <em>(2011 &ndash; 2015)</em>
             </li>
             <li>
               Proposed{" "}
