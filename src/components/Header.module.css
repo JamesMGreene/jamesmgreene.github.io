@@ -80,6 +80,13 @@
   color: #f0f6fc;
 }
 
+.active {
+  color: #f0f6fc;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: #58a6ff;
+}
+
 @media print, screen and (max-width: 580px) {
   .header {
     flex-direction: column;
