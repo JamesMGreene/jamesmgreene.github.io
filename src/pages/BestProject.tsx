@@ -45,11 +45,13 @@ export default function BestProject() {
         </li>
         <li>
           <strong>Innovative:</strong> At the time, most developer education was
-          passive — watch a video, read docs, follow a tutorial in a sandbox.
-          Learning Lab flipped this by using GitHub&apos;s own platform as the
-          classroom: bots would open issues, review pull requests, and provide
-          contextual feedback as learners progressed through courses. The
-          experience felt like pair programming with a patient mentor.
+          passive — watch a video, read docs, follow a tutorial in a sandbox —
+          or required a corporate trainer to fly out for in-person sessions,
+          which didn&apos;t scale well. Learning Lab flipped this by using
+          GitHub&apos;s own platform as the classroom: bots would open issues,
+          review pull requests, and provide contextual feedback as learners
+          progressed through courses. The experience felt like pair programming
+          with a patient mentor.
         </li>
         <li>
           <strong>Impactful:</strong> Learning Lab helped millions of developers
