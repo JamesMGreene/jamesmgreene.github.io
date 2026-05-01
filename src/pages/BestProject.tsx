@@ -10,35 +10,21 @@ export default function BestProject() {
       </h2>
 
       <h3>
-        <a
-          id="new-feature-user-annotations"
-          href="#new-feature-user-annotations"
-        >
-          New Feature: User Annotations
+        <a id="github-learning-lab" href="#github-learning-lab">
+          GitHub Learning Lab
         </a>
       </h3>
 
       <p>
-        The best project that I have had the honor of spearheading was the
-        prototyping, refining, and implementing of the &quot;User
-        Annotations&quot; feature for my employer&apos;s latest flagship product
-        for legal research,{" "}
-        <a href="http://next.westlaw.com">WestlawNext</a> (also,{" "}
-        <a href="http://westlawnext.com">its marketing site</a>). This feature
-        enabled users to:
+        The project I&apos;m most proud of is{" "}
+        <a href="https://github.com/apps/github-learning-lab">
+          GitHub Learning Lab
+        </a>
+        : an interactive e-learning platform that I planned, designed, and built
+        at GitHub. Learning Lab taught people how to use GitHub (and many other
+        technologies) by guiding them through real-world tasks in actual
+        repositories — not simulations or sandboxes, but the real thing.
       </p>
-
-      <ol>
-        <li>Highlight text within our legal documents.</li>
-        <li>
-          Highlight text within our legal documents and attach a inline note to
-          it.
-        </li>
-        <li>
-          Attach document-level notes when no associated text needs to be
-          highlighted.
-        </li>
-      </ol>
 
       <h3>
         <a id="why" href="#why">
@@ -47,98 +33,90 @@ export default function BestProject() {
       </h3>
 
       <p>
-        So why was this feature the best project I&apos;ve worked on to date? It
-        was:
+        So why is Learning Lab the project I&apos;m most proud of? It was:
       </p>
 
       <ul>
         <li>
-          <strong>&quot;Impossible&quot;:</strong> When our Information Architect
-          originally brought the idea to me and my team on a Friday afternoon, we
-          all thought it was impossible to achieve, especially cross-browser (IE
-          &gt;= 7, and friends). None of us had ever seen such functionality on
-          the web at that point, only in desktop applications like Adobe
-          Reader/Acrobat—and it is still quite rare even today. However, all of
-          our biggest competitors have added since attempted to copy our
-          functionality... some mostly successfully, some not.
+          <strong>Full Ownership:</strong> I was involved from the very beginning
+          — from concept and architecture through implementation, launch, and
+          iteration. This wasn&apos;t a feature on someone else&apos;s product; it
+          was a standalone platform that I helped bring to life from zero.
         </li>
         <li>
-          <strong>Agile:</strong> As it happened, I was leaving on a family road
-          trip the next day. Inspired by the challenge, I brought my personal
-          laptop along and was able to hammer out a basic but working prototype
-          for IE and an especially buggy prototype for the other browsers.
-          Additionally, although we were already practicing agile development as
-          our SDLC, this particular project had an exceptionally tight feedback
-          loop between the IA and myself, which made it simple to mold the
-          functionality to be the exact implementation to match his idea.
+          <strong>Innovative:</strong> At the time, most developer education was
+          passive — watch a video, read docs, follow a tutorial in a sandbox.
+          Learning Lab flipped this by using GitHub&apos;s own platform as the
+          classroom: bots would open issues, review pull requests, and provide
+          contextual feedback as learners progressed through courses. The
+          experience felt like pair programming with a patient mentor.
         </li>
         <li>
-          <strong>Unique Knowledge:</strong> Even as seasoned web developers,
-          what we didn&apos;t know during our IA&apos;s initial pitch was that
-          the browsers did each offer <em>one of two</em> Selection &amp; Range
-          DOM APIs: IE&apos;s proprietary model or the W3C standardized model.
-          Both models have their pros and cons but were certainly not equivalent.
-          As it turned out, a working prototype was much easier to achieve with
-          IE&apos;s model but I was eventually able to achieve consistent
-          cross-browser functionality over the next few weeks. The work I had to
-          do to bridge the gaps was effectively a proprietary precursor to the{" "}
-          <a href="http://code.google.com/p/rangy">Rangy</a> JavaScript library.
+          <strong>Impactful:</strong> Learning Lab helped millions of developers
+          learn Git, GitHub, GitHub Actions, and more. It lowered the barrier to
+          entry for new developers and gave organizations a way to onboard teams
+          with hands-on training.
         </li>
         <li>
-          <strong>Challenging:</strong> Even after working around the
-          cross-browser compatibility issues, our product&apos;s content posed
-          its own challenges:
-          <ol>
-            <li>
-              Our users&apos; annotations are private data, so they couldn&apos;t
-              be associated directly with a document.
-            </li>
-            <li>
-              We have pedabytes of document content, so giving each user their
-              own copy of the document wasn&apos;t a cost effective option.
-            </li>
-            <li>
-              Our document content also gets updated occasionally, so our
-              algorithm for placing the inline user annotations had to be very
-              forgiving.
-            </li>
-          </ol>
+          <strong>Technically Interesting:</strong> Under the hood, Learning Lab
+          was an event-driven system that listened to GitHub webhooks, evaluated
+          learner progress against course-defined criteria, and responded with
+          the appropriate next steps. Building a reliable, responsive educational
+          experience on top of an eventually-consistent event stream was a
+          fascinating challenge.
         </li>
         <li>
-          <strong>Little Management Overhead:</strong> For this project, I worked
-          mostly independently with minor collaboration points when I wanted some
-          unbiased design validation from my peers. Moreover, to my
-          management&apos;s credit, they were primarily just &quot;along for the
-          ride&quot; on this effort and the lack of micromanagement (
-          <em>not</em> the norm at the company) made it <em>so</em> much easier
-          to get some intense work done without any roadblocks.
-        </li>
-        <li>
-          <strong>Successful:</strong> Last but certainly not leas, the project
-          originally thought impossible ended in a complete success. Not only did
-          it go out with the initial release of our new product but it was also
-          wildly popular with our customers: on an average day, more than 30000
-          new highlights and notes are added.
+          <strong>Community-Driven:</strong> Course authors from across the
+          community could create their own Learning Lab courses, making it a true
+          platform rather than just a product. Watching the community build
+          courses for topics we never anticipated was incredibly rewarding.
         </li>
       </ul>
 
+      <hr />
+
       <h3>
-        <a id="sharing" href="#sharing">
-          Sharing
+        <a id="honorable-mention" href="#honorable-mention">
+          Honorable Mention: User Annotations for WestlawNext
         </a>
       </h3>
 
       <p>
-        Unfortunately, I have never been able to acquire permission from my
-        employer to open source the overall annotations workflow. However, I have
-        been &quot;allowed&quot; to open source several smaller pieces of it by
-        deciding that sharing them with the world was important enough to me to
-        warrant the extra effort required to rewrite them from scratch. Thus, I
-        have since released initial versions of the &quot;jquery.textSelect&quot;
-        and &quot;jWalker&quot; JavaScript libraries (see my{" "}
-        <Link to="/open-source">&quot;Open Source&quot; page</Link> for more
-        details), though more work remains to get them up to par with the
-        robustness and completeness of their proprietary counterparts.
+        Earlier in my career at Thomson Reuters, I spearheaded the prototyping
+        and implementation of the &quot;User Annotations&quot; feature for{" "}
+        <a href="http://next.westlaw.com">WestlawNext</a>, a flagship legal
+        research product. This feature enabled users to highlight text and attach
+        notes within legal documents — functionality that, at the time, had never
+        been achieved on the web.
+      </p>
+
+      <ul>
+        <li>
+          <strong>&quot;Impossible&quot;:</strong> When the idea was first pitched
+          on a Friday afternoon, we all thought it was impossible to achieve
+          cross-browser (IE &gt;= 7 and friends). None of us had ever seen such
+          functionality on the web — only in desktop apps like Adobe Reader.
+          Inspired by the challenge, I prototyped a working solution over a
+          weekend road trip.
+        </li>
+        <li>
+          <strong>Pioneering:</strong> The browsers each offered one of two
+          incompatible Selection &amp; Range DOM APIs. The cross-browser
+          bridging work I did was effectively a proprietary precursor to the{" "}
+          <a href="https://github.com/timdown/rangy">Rangy</a> JavaScript library.
+        </li>
+        <li>
+          <strong>Successful:</strong> The project originally thought impossible
+          launched with the product&apos;s initial release and became wildly
+          popular — on an average day, more than 30,000 new highlights and notes
+          were added. Competitors later attempted to replicate the functionality.
+        </li>
+      </ul>
+
+      <p>
+        I later open sourced several pieces of that work as the{" "}
+        <code>jquery.textSelect</code> and <code>jWalker</code> libraries (see
+        my <Link to="/open-source">Open Source page</Link> for more details).
       </p>
     </>
   );

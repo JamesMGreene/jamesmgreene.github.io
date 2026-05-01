@@ -80,6 +80,10 @@
 .dotTs { background: #3178c6; }
 .dotReact { background: #61dafb; }
 .dotNode { background: #339933; }
+.dotRuby { background: #cc342d; }
+.dotGo { background: #00add8; }
+.dotPython { background: #3776ab; }
+.dotAi { background: #a855f7; }
 
 .cards {
   display: grid;

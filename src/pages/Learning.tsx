@@ -12,6 +12,27 @@ export default function Learning() {
       </h3>
       <ul>
         <li>
+          <strong>Web Standards Contributor</strong>{" "}
+🌐
+          <ul>
+            <li>
+              Proposed a{" "}
+              <a href="https://gist.github.com/JamesMGreene/3ded0f6e7f0a658b9394">
+                new JavaScript error handling standard for HTML5
+              </a>
+              , which was ratified into the specification.
+            </li>
+            <li>
+              Worked with the HTML Web Apps Working Group on the Clipboard API
+              sub-group to{" "}
+              <a href="https://github.com/zeroclipboard/zeroclipboard/issues/171">
+                get &quot;click-to-copy&quot; into the DOM APIs
+              </a>
+              , helping retire Flash-based clipboard workarounds.
+            </li>
+          </ul>
+        </li>
+        <li>
           <strong>Open Source Contributor</strong>{" "}
 🎁
           <ul>
@@ -23,67 +44,23 @@ export default function Learning() {
           </ul>
         </li>
         <li>
-          <strong>Speaker</strong>{" "}
-💬
-          <ul>
-            <li>
-              <a href="http://www.twincitiescodecamp.com/tccc/spring2012/sessions.aspx#s5">
-                Twin Cities Code Camp
-              </a>
-            </li>
-            <li>
-              <a href="http://2012.jsconf.us/#/schedule">JSConf US</a>
-            </li>
-            <li>
-              <a href="http://www.meetup.com/JavaScriptMN/events/53366672/">
-                JavaScriptMN
-              </a>
-            </li>
-            <li>
-              Various technology presentations at work: ASP.NET MVC, the
-              JavaScript language, QUnit, etc.
-            </li>
-          </ul>
-        </li>
-        <li>
-          <strong>Conference Attendee</strong>{" "}
-🎫
-          <ul>
-            <li>
-              <a href="http://lanyrd.com/2012/frontendmasters/">
-                Frontend Masters 2
-              </a>
-            </li>
-            <li>
-              <a href="http://2012.jsconf.us/">JSConf US</a>
-            </li>
-            <li>
-              <a href="http://events.jquery.org/2013/portland/">
-                jQCon (jQuery Conference) US
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <strong>Web Community Activist</strong>{" "}
+          <strong>Leader &amp; Community Builder</strong>{" "}
 ✊
           <ul>
             <li>
-              Co-organizer of the{" "}
-              <a href="http://www.meetup.com/JavaScriptMN/members/?op=leaders">
-                JavaScriptMN
-              </a>{" "}
-              user group (~1000 members, average of 75+ attendees)
+              Parentocats ERG Leader at GitHub for 3+ years: co-organizing
+              the largest community of belonging at GitHub, supporting all
+              parents and caregivers.
             </li>
             <li>
-              Actively try to drink from the firehose that is JavaScript news
+              Internal Mobility advocate at GitHub for 4+ years: built and
+              maintained automation to promote internal job opportunities and
+              connect employees with relevant hiring managers.
             </li>
             <li>
-              Proposed a{" "}
-              <a href="https://gist.github.com/JamesMGreene/3ded0f6e7f0a658b9394">
-                new JavaScript error handling standard for HTML5
-              </a>
-              , which was ratified.
+              Co-founder and co-organizer of the{" "}
+              <a href="http://www.meetup.com/JavaScriptMN/">JavaScriptMN</a>{" "}
+              user group (~1000 members, average of 75+ attendees).
             </li>
             <li>
               Proposed{" "}
@@ -92,15 +69,30 @@ export default function Learning() {
                 ideas
               </a>{" "}
               for the TC39 committee on ECMAScript 6 via the{" "}
-              <a href="https://github.com/JSFixed/JSFixed">JSFixed group</a>
+              <a href="https://github.com/JSFixed/JSFixed">JSFixed group</a>.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Speaker</strong>{" "}
+💬
+          <ul>
+            <li>
+              <a href="http://2012.jsconf.us/#/schedule">JSConf US</a>
             </li>
             <li>
-              Working with the HTML Web Apps Working Group on the Clipboard
-              sub-group to{" "}
-              <a href="https://github.com/zeroclipboard/zeroclipboard/issues/171">
-                get &quot;click-to-copy&quot; into the DOM APIs
-              </a>{" "}
-              so that we can put Flash Player to rest sooner than later.
+              <a href="http://www.twincitiescodecamp.com/tccc/spring2012/sessions.aspx#s5">
+                Twin Cities Code Camp
+              </a>
+            </li>
+            <li>
+              <a href="http://www.meetup.com/JavaScriptMN/events/53366672/">
+                JavaScriptMN
+              </a>
+            </li>
+            <li>
+              Various internal technology presentations on JavaScript, ASP.NET
+              MVC, QUnit, and more.
             </li>
           </ul>
         </li>
@@ -109,25 +101,46 @@ export default function Learning() {
 📖
           <ul>
             <li>
-              Mentored many coworkers on the .NET Framework, ASP.NET MVC, the
-              JavaScript language, and various JavaScript libraries like jQuery,
-              QUnit, RequireJS, etc. <em>(2006 - present)</em>
+              Adjunct Instructor of web development (HTML, CSS, JavaScript) at
+              Dunwoody College of Technology. <em>(2015 &ndash; 2018)</em>
             </li>
             <li>
               Adjunct Instructor of programming and operating systems courses at
-              Dunwoody College of Technology. <em>(2010 - present)</em>
+              Dunwoody College of Technology. <em>(2010 &ndash; 2011)</em>
             </li>
             <li>
-              Undergraduate Teaching Assistant (a rare position) for
-              &quot;Introduction to Programming in C++ for Scientists and
-              Engineers&quot; at the University of Minnesota.{" "}
-              <em>(2005 - 2006)</em>
+              Mentored many coworkers across multiple employers on JavaScript,
+              .NET, Node.js, and various libraries and frameworks.{" "}
+              <em>(2006 &ndash; present)</em>
             </li>
             <li>
-              Volunteer UNIX Teacher for the University of Minnesota&apos;s
-              chapter of the Association for Computing Machinery (ACM), teaching
-              a series of introductory classes to the public on using UNIX at the
-              beginning of each semester. <em>(2004 - 2006)</em>
+              Undergraduate Teaching Assistant for &quot;Introduction to
+              Programming in C++ for Scientists and Engineers&quot; at the
+              University of Minnesota. <em>(2005 &ndash; 2006)</em>
+            </li>
+            <li>
+              Volunteer UNIX Teacher for the University of Minnesota&apos;s ACM
+              chapter, teaching introductory UNIX classes to the public.{" "}
+              <em>(2004 &ndash; 2006)</em>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Conference Attendee</strong>{" "}
+🎫
+          <ul>
+            <li>
+              <a href="http://2012.jsconf.us/">JSConf US</a>
+            </li>
+            <li>
+              <a href="http://events.jquery.org/2013/portland/">
+                jQCon (jQuery Conference) US
+              </a>
+            </li>
+            <li>
+              <a href="http://lanyrd.com/2012/frontendmasters/">
+                Frontend Masters
+              </a>
             </li>
           </ul>
         </li>
@@ -135,15 +148,14 @@ export default function Learning() {
           <strong>Student</strong>{" "}
 🎓
           <ul>
-            <li>M.S. Software Engineering</li>
+            <li>M.S. Software Engineering &mdash; University of Minnesota</li>
             <li>
-              B.A. Computer Science
+              B.A. Computer Science &mdash; University of Minnesota
               <ul>
                 <li>
-                  Minored in &quot;Asian Languages &amp; Literature:
-                  Japanese&quot;
+                  Minor in &quot;Asian Languages &amp; Literature: Japanese&quot;
                 </li>
-                <li>Minored in &quot;Medieval Studies&quot;</li>
+                <li>Minor in &quot;Medieval Studies&quot;</li>
               </ul>
             </li>
             <li>
