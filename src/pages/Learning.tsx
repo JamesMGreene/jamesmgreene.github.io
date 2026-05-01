@@ -12,6 +12,15 @@ export default function Learning() {
       </h3>
       <ul>
         <li>
+          <strong>Husband &amp; Father</strong>{" "}
+👪
+          <ul>
+            <li>
+              <em>Oh, so much to learn...!</em>
+            </li>
+          </ul>
+        </li>
+        <li>
           <strong>Web Standards Contributor</strong>{" "}
 🌐
           <ul>
@@ -170,15 +179,6 @@ export default function Learning() {
                 <li>Web Application Development (.NET 2.0)</li>
                 <li>Windows Application Development (.NET 2.0)</li>
               </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <strong>Husband &amp; Father</strong>{" "}
-👪
-          <ul>
-            <li>
-              <em>Oh, so much to learn...!</em>
             </li>
           </ul>
         </li>
