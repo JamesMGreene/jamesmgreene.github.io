@@ -1,91 +1,81 @@
 import { Link } from "react-router-dom";
+import styles from "./Home.module.css";
 
 export default function Home() {
   return (
     <>
-      <h3 id="technical-prowess">Technical Prowess</h3>
-      <ul>
-        <li>
-          I am a JavaScript language expert, for both the frontend (browsers)
-          and back (Node.js, PhantomJS, etc.). Check out my{" "}
-          <Link to="/open-source">open source work</Link> and my{" "}
-          <Link to="/best-project">best project narrative</Link> for more
-          details.
-        </li>
-        <li>
-          I am extremely proficient at learning new programming languages and
-          frameworks.
-        </li>
-        <li>
-          I am a practitioner of unit testing, though I know from experience that
-          it doesn&apos;t always pan out as well we hope.
-        </li>
-        <li>
-          I am a regular GitHub.com user but I accomplish most of my Git
-          interactions from the terminal.
-        </li>
-        <li>I am extraordinarily detail-oriented.</li>
-      </ul>
+      <section className={styles.hero}>
+        <p className={styles.greeting}>// Hello, world! 👋</p>
+        <h1 className={styles.title}>
+          I'm <span className={styles.accent}>James</span>,
+          <br />a software engineer.
+        </h1>
+        <p className={styles.bio}>
+          JavaScript expert, open source enthusiast, and builder of developer
+          tools. jQuery team member and contributor to PhantomJS, QUnit, and
+          ZeroClipboard.
+        </p>
 
-      <h3 id="personality">Personality</h3>
-      <ul>
-        <li>
-          I am an easy-going person and enjoy working with others, though I have
-          also been an &quot;individual contributor&quot; for much of my
-          professional career.
-        </li>
-        <li>
-          I have experience leading small teams (1-10 devs) on focused
-          features/refactors/projects.
-        </li>
-        <li>
-          I refuse to stop <Link to="/learning">learning</Link>, and I strive to
-          find a healthy balance between the breadth and depth of the knowledge
-          that I absorb.
-        </li>
-        <li>
-          I am very passionate about creating <em>and shipping</em> high quality
-          software; a desire which is complemented well by my detail-oriented
-          nature.
-        </li>
-        <li>
-          I am <em>obsessed</em> with the three Cs of open source:{" "}
-          <Link to="/open-source">creating, contributing, and consuming</Link>.
-        </li>
-        <li>
-          I have an unabashed love for JavaScript that most engineers consider
-          unhealthy.
-        </li>
-      </ul>
+        <div className={styles.stats}>
+          <div className={styles.stat}>
+            <div className={styles.number}>500+</div>
+            <div className={styles.label}>Repos</div>
+          </div>
+          <div className={styles.stat}>
+            <div className={styles.number}>15+</div>
+            <div className={styles.label}>Years</div>
+          </div>
+          <div className={styles.stat}>
+            <div className={styles.number}>∞</div>
+            <div className={styles.label}>Curiosity</div>
+          </div>
+        </div>
 
-      <hr />
+        <div className={styles.badges}>
+          <span className={styles.badge}>
+            <span className={`${styles.dot} ${styles.dotJs}`}></span> JavaScript
+          </span>
+          <span className={styles.badge}>
+            <span className={`${styles.dot} ${styles.dotTs}`}></span> TypeScript
+          </span>
+          <span className={styles.badge}>
+            <span className={`${styles.dot} ${styles.dotReact}`}></span> React
+          </span>
+          <span className={styles.badge}>
+            <span className={`${styles.dot} ${styles.dotNode}`}></span> Node.js
+          </span>
+        </div>
+      </section>
 
-      <h3 id="more-about-me">
-        <em>More about me!</em>
-      </h3>
-      <ul>
-        <li>
-          I{" "}
-💝{" "}
-          Open Sourcing: <Link to="/open-source">open-source</Link>
-        </li>
-        <li>
-          I{" "}
-❤️{" "}
-          Learning: <Link to="/learning">learning</Link>
-        </li>
-        <li>
-          I am very proud of a particular project:{" "}
-          <Link to="/best-project">best-project</Link>
-        </li>
-        <li>
-          I am considered a JavaScript expert by my peers and current employer
-        </li>
-        <li>
-          I may have an emoji addiction{" "}
-😊
-        </li>
-      </ul>
+      <section className={styles.cards}>
+        <Link to="/open-source" className={styles.card}>
+          <div className={styles.icon}>🚀</div>
+          <h3>Open Source</h3>
+          <p>
+            Creating, contributing, and consuming open source projects across the
+            JavaScript ecosystem.
+          </p>
+          <span className={styles.link}>Explore →</span>
+        </Link>
+        <Link to="/best-project" className={styles.card}>
+          <div className={styles.icon}>⭐</div>
+          <h3>Best Project</h3>
+          <p>
+            A deep dive into the project I'm most proud of and the challenges I
+            overcame building it.
+          </p>
+          <span className={styles.link}>Read more →</span>
+        </Link>
+        <Link to="/learning" className={styles.card}>
+          <div className={styles.icon}>📚</div>
+          <h3>Always Learning</h3>
+          <p>
+            Finding the balance between breadth and depth of knowledge across
+            languages and frameworks.
+          </p>
+          <span className={styles.link}>See what's new →</span>
+        </Link>
+      </section>
     </>
   );
 }

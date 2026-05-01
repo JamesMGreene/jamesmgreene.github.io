@@ -1,0 +1,143 @@
+.hero {
+  padding: 60px 0 48px;
+}
+
+.greeting {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  color: #7ee787;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f0f6fc;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.accent {
+  color: #58a6ff;
+}
+
+.bio {
+  font-size: 1.1rem;
+  color: #8b949e;
+  max-width: 600px;
+  margin-bottom: 32px;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.number {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #58a6ff;
+}
+
+.label {
+  font-size: 0.8rem;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badges {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #c9d1d9;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.dotJs { background: #f1e05a; }
+.dotTs { background: #3178c6; }
+.dotReact { background: #61dafb; }
+.dotNode { background: #339933; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 48px 0;
+  border-top: 1px solid #21262d;
+}
+
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 24px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+}
+
+.card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f0f6fc;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 0.85rem;
+  color: #8b949e;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.link {
+  font-size: 0.8rem;
+  color: #58a6ff;
+}
+
+@media screen and (max-width: 740px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .stats {
+    gap: 24px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

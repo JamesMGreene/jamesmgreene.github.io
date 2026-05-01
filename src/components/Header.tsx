@@ -5,33 +5,20 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <h1>
-        <Link to="/">James M. Greene</Link>
+        <Link to="/">jamesmgreene <span className={styles.dim}>~</span></Link>
       </h1>
-      <p>
-        JavaScript engineer/lover. Official{" "}
-        <a href="http://jquery.org/team/">jQuery team member</a>.<br />
-        Open source collaborator for{" "}
-        <a href="https://github.com/ariya/phantomjs">PhantomJS</a>,{" "}
-        <a href="https://github.com/jquery/qunit">QUnit</a>,{" "}
-        <a href="https://github.com/zeroclipboard/zeroclipboard">ZeroClipboard</a>, and{" "}
-        <a href="https://github.com/derek-watson/jsUri">jsUri</a>.
-      </p>
+      <nav className={styles.nav}>
+        <Link to="/">Home</Link>
+        <Link to="/open-source">Open Source</Link>
+        <Link to="/best-project">Best Project</Link>
+        <Link to="/learning">Learning</Link>
+      </nav>
       <ul>
         <li>
-          <a href="https://github.com/JamesMGreene">
-💻
-          </a>
-        </li>
-
-        <li>
-          <a href="https://www.linkedin.com/in/jamesmgreene/" title="LinkedIn">
-💼
-          </a>
+          <a href="https://github.com/JamesMGreene" title="GitHub">💻</a>
         </li>
         <li>
-          <Link to="/" title="Website">
-🌎
-          </Link>
+          <a href="https://www.linkedin.com/in/jamesmgreene/" title="LinkedIn">💼</a>
         </li>
       </ul>
     </header>
