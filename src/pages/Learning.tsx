@@ -21,6 +21,28 @@ export default function Learning() {
           </ul>
         </li>
         <li>
+          <strong>Leader &amp; Community Builder</strong>{" "}
+✊
+          <ul>
+            <li>
+              Leader of the Parentocats employee resource group at GitHub for 3+ years: co-organizing
+              the largest community of belonging at GitHub, supporting all
+              parents and caregivers.
+            </li>
+            <li>
+              Internal Mobility advocate at GitHub for 4+ years: built and
+              maintained automation to promote internal job opportunities and
+              connect employees with relevant hiring managers.
+            </li>
+            <li>
+              Co-founder and co-organizer of the{" "}
+              <a href="http://www.meetup.com/JavaScriptMN/">JavaScriptMN</a>{" "}
+              user group (~1000 members, average of 75+ attendees).{" "}
+              <em>(2011 &ndash; 2015)</em>
+            </li>
+          </ul>
+        </li>
+        <li>
           <strong>Web Standards Contributor</strong>{" "}
 🌐
           <ul>
@@ -58,28 +80,6 @@ export default function Learning() {
               I always learn <em>a lot</em> while contributing to open source
               software. Check out my growing list of{" "}
               <Link to="/open-source">open source contributions</Link>!
-            </li>
-          </ul>
-        </li>
-        <li>
-          <strong>Leader &amp; Community Builder</strong>{" "}
-✊
-          <ul>
-            <li>
-              Leader of the Parentocats employee resource group at GitHub for 3+ years: co-organizing
-              the largest community of belonging at GitHub, supporting all
-              parents and caregivers.
-            </li>
-            <li>
-              Internal Mobility advocate at GitHub for 4+ years: built and
-              maintained automation to promote internal job opportunities and
-              connect employees with relevant hiring managers.
-            </li>
-            <li>
-              Co-founder and co-organizer of the{" "}
-              <a href="http://www.meetup.com/JavaScriptMN/">JavaScriptMN</a>{" "}
-              user group (~1000 members, average of 75+ attendees).{" "}
-              <em>(2011 &ndash; 2015)</em>
             </li>
           </ul>
         </li>
