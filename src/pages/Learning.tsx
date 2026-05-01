@@ -48,7 +48,7 @@ export default function Learning() {
 ✊
           <ul>
             <li>
-              Parentocats ERG Leader at GitHub for 3+ years: co-organizing
+              Leader of the Parentocats employee resource group at GitHub for 3+ years: co-organizing
               the largest community of belonging at GitHub, supporting all
               parents and caregivers.
             </li>
