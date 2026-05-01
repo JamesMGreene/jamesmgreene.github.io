@@ -156,7 +156,7 @@ export default function Learning() {
               </ul>
             </li>
             <li>
-              OpenJS Foundation Node.js Certified
+              OpenJS Foundation Certified
               <ul>
                 <li>Node.js Services Developer (JSNSD)</li>
                 <li>Node.js Application Developer (JSNAD)</li>
