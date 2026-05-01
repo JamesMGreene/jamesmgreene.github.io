@@ -39,6 +39,15 @@ export default function Learning() {
               </a>
               , helping retire Flash-based clipboard workarounds.
             </li>
+            <li>
+              Proposed{" "}
+              <a href="https://github.com/JSFixed/JSFixed/issues/51">several</a>{" "}
+              <a href="https://github.com/JSFixed/JSFixed/issues/71#issuecomment-5857559">
+                ideas
+              </a>{" "}
+              for the TC39 committee on ECMAScript 6 via the{" "}
+              <a href="https://github.com/JSFixed/JSFixed">JSFixed group</a>.
+            </li>
           </ul>
         </li>
         <li>
@@ -71,15 +80,6 @@ export default function Learning() {
               <a href="http://www.meetup.com/JavaScriptMN/">JavaScriptMN</a>{" "}
               user group (~1000 members, average of 75+ attendees).{" "}
               <em>(2011 &ndash; 2015)</em>
-            </li>
-            <li>
-              Proposed{" "}
-              <a href="https://github.com/JSFixed/JSFixed/issues/51">several</a>{" "}
-              <a href="https://github.com/JSFixed/JSFixed/issues/71#issuecomment-5857559">
-                ideas
-              </a>{" "}
-              for the TC39 committee on ECMAScript 6 via the{" "}
-              <a href="https://github.com/JSFixed/JSFixed">JSFixed group</a>.
             </li>
           </ul>
         </li>
