@@ -4,12 +4,9 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p>
-        Project maintained by{" "}
-        <a href="https://github.com/JamesMGreene">JamesMGreene</a>
-      </p>
-      <p>
-        Hosted on GitHub Pages &mdash; Theme by{" "}
-        <a href="https://github.com/orderedlist">orderedlist</a>
+        © 2026{" "}
+        <a href="https://github.com/JamesMGreene">jamesmgreene</a>
+        {" "}// built with react + typescript + vite
       </p>
     </footer>
   );
