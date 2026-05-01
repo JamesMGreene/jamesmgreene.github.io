@@ -15,12 +15,12 @@ My personal website, built with **React**, **Vite**, and **TypeScript**, deploye
 ### Shared Components
 
 - **`Layout`** — Wrapper with `<Outlet />` providing consistent page structure
-- **`Header`** — Name, bio, and social links
-- **`Footer`** — Site footer
+- **`Header`** — Terminal-style logo, navigation links, and social icon buttons
+- **`Footer`** — Minimal monospace centered text
 
 ### Pages
 
-- `Home.tsx` — Technical Prowess, Personality, More about me
+- `Home.tsx` — Hero section with stats, language badges, and navigation cards
 - `OpenSource.tsx` — Open source contributions
 - `BestProject.tsx` — Best project narrative
 - `Learning.tsx` — Learning activities and credentials
@@ -29,7 +29,7 @@ My personal website, built with **React**, **Vite**, and **TypeScript**, deploye
 ### Styles
 
 - CSS Modules (`*.module.css`) for component-scoped styling
-- Global theme styles in `src/styles/global.css` and `src/styles/pygment_trac.css`
+- Global theme styles in `src/styles/global.css` (dark developer theme with Space Grotesk + JetBrains Mono fonts)
 
 ## Development
 
