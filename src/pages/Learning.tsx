@@ -156,6 +156,13 @@ export default function Learning() {
               </ul>
             </li>
             <li>
+              OpenJS Node.js Certified
+              <ul>
+                <li>Node.js Services Developer (JSNSD)</li>
+                <li>Node.js Application Developer (JSNAD)</li>
+              </ul>
+            </li>
+            <li>
               Microsoft Certified Technology Specialist (
               <Link to="/mcp-transcript">view transcript</Link>)
               <ul>
